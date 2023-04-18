@@ -1,0 +1,24 @@
+.footer {
+    background-color: darkslategrey;
+    color: whitesmoke;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    padding-left: 10px;
+  }
+  
+  .footer_contact_us_title {
+    color: whitesmoke;
+    font-size: 28px;
+    padding-bottom: 0px;
+  }
+  
+  .footer_contact_us_info {
+    padding-left: 10px;
+    display: block;
+  }
+  
+  .email {
+    text-decoration: none;
+  }
