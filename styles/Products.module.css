@@ -1,6 +1,5 @@
-.main {
+.home {
     display: block;
-    min-height: 100vh;
 }
 
 .products_header {
@@ -12,13 +11,17 @@
     text-align: center;
 }
 
-.product_name {
-    display: block;
-    text-align: center;
+.product_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
 }
 
-.Products {
-    display: block;
-    margin:auto;
-    width:50%;
+.product {
+    width: 300px;
+    margin: auto;
 }
