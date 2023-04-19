@@ -1,4 +1,4 @@
-import NavProduct from '@/src/components/layout/NavProduct';
+import NavProduct from '@/src/components/NavProduct';
 
 import styles from '../styles/Products.module.css';
 
