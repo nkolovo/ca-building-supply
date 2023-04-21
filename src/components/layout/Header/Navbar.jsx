@@ -36,7 +36,7 @@ export default function Navbar() {
     ]
 
     const [navActive, setNavActive] = useState(false);
-    const [activeIdx, setActiveIdx] = useState(0);
+    const [activeIdx, setActiveIdx] = useState(-1);
 
     return (
         <header>

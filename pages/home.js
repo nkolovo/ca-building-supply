@@ -6,37 +6,37 @@ export default function Home() {
     const PRODUCT_LIST = [
         {
             text: "Example",
-            img: "/example.jpg",
+            img: "company/products/example.jpg",
             href: "/products/example"
         },
         {
             text: "Example",
-            img: "/example.jpg",
+            img: "company/products/example.jpg",
             href: "/products/example"
         },
         {
             text: "Example",
-            img: "/example.jpg",
+            img: "company/products/example.jpg",
             href: "/products/example"
         },
         {
             text: "Example",
-            img: "/example.jpg",
+            img: "company/products/example.jpg",
             href: "/products/example"
         },
         {
             text: "Example",
-            img: "/example.jpg",
+            img: "company/products/example.jpg",
             href: "/products/example"
         },
         {
             text: "Example",
-            img: "/example.jpg",
+            img: "company/products/example.jpg",
             href: "/products/example"
         },
         {
             text: "Example",
-            img: "/example.jpg",
+            img: "company/products/example.jpg",
             href: "/products/example"
         },
     ]
