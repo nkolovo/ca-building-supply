@@ -5,32 +5,39 @@ import styles from '../styles/Products.module.css';
 export default function Home() {
     const PRODUCT_LIST = [
         {
-            text: "New Tech Wood",
-            href: "/products/new-tech-wood"
+            text: "Example",
+            img: "/example.jpg",
+            href: "/products/example"
         },
         {
-            text: "New Tech Wood",
-            href: "/products/new-tech-wood"
+            text: "Example",
+            img: "/example.jpg",
+            href: "/products/example"
         },
         {
-            text: "New Tech Wood",
-            href: "/products/new-tech-wood"
+            text: "Example",
+            img: "/example.jpg",
+            href: "/products/example"
         },
         {
-            text: "New Tech Wood",
-            href: "/products/new-tech-wood"
+            text: "Example",
+            img: "/example.jpg",
+            href: "/products/example"
         },
         {
-            text: "New Tech Wood",
-            href: "/products/new-tech-wood"
+            text: "Example",
+            img: "/example.jpg",
+            href: "/products/example"
         },
         {
-            text: "New Tech Wood",
-            href: "/products/new-tech-wood"
+            text: "Example",
+            img: "/example.jpg",
+            href: "/products/example"
         },
         {
-            text: "New Tech Wood",
-            href: "/products/new-tech-wood"
+            text: "Example",
+            img: "/example.jpg",
+            href: "/products/example"
         },
     ]
     return (

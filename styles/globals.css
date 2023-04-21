@@ -1,3 +1,16 @@
+:root {
+  overflow-x: hidden;
+}
+
+.ca-building-supply {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 9rem;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -10,7 +23,7 @@ a {
 }
 
 .logo {
-  color: wheat;
+  color: burlywood;
   padding-left: 50px;
 }
 
@@ -61,11 +74,64 @@ a {
   color: ghostwhite;
 }
 
-.nav__link.active, .nav__link:hover {
+.nav__link.active,
+.nav__link:hover {
   font-weight: 600;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1140px) {
+@media screen and (max-width: 560px) {
+  .logo {
+    font-size: 2.5vh;
+    padding: 10px 0px 0px 20px;
+  }
+  
+  .content-wrap {
+    padding-bottom: 100vh;
+  }
+  
+  .footer {
+    height: 100vh !important;
+  }
+
+  .footer_contact_us_title {
+    height: 10vh;
+    font-size: 8vh !important;
+    text-align: center;
+    margin-bottom: 2vh;
+    text-shadow: 0 0px 20px burlywood;
+  }
+
+  .footer_contact_us_info_gen {
+    height: fit-content;
+    width: 100%;
+    font-size: 2.5vh;
+    margin-bottom: 20vh;
+  }
+
+  .footer_contact_us_info_row {
+    overflow-wrap: break-word;
+  }
+
+  .footer_company {
+    height: 53vh;
+    position: relative;
+    float: none !important;
+  }
+
+  .ca-logo {
+    align-self: center;
+    text-align: center;
+    margin-bottom: 25vh;
+  }
+
+  .developer {
+    text-align: center;
+    color: burlywood !important;
+    text-shadow: 0 0 5px wheat;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1170px) {
   .nav__menu-list {
     position: inherit;
     padding: 0;
@@ -79,11 +145,11 @@ a {
     display: flex;
   }
 
-
 }
 
 @media screen and (min-width: 768px) {
   .nav__menu-list {
+    position: inherit;
     flex-direction: row;
     column-gap: 24px;
     align-items: center;
@@ -95,7 +161,7 @@ a {
   }
 
   .nav__link {
-    color: whitesmoke;
+    color: black;
   }
 
   .nav__link::before {
@@ -106,12 +172,11 @@ a {
     left: 0;
     height: 3px;
     transition: all 0.4s;
-    background-color: whitesmoke;
+    background-color: black;
   }
 
   .nav__link:hover::before,
-  .nav__link.active::before
-  {
+  .nav__link.active::before {
     width: 100%;
   }
 
@@ -121,6 +186,7 @@ a {
 
   .nav {
     position: inherit;
+    background-color: transparent;
   }
 
   header {
@@ -129,12 +195,12 @@ a {
 }
 
 .footer {
-  background-color: darkslategrey;
+  background-color: #333;
   color: whitesmoke;
-  left: 0;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  display: block;
+  height: 9rem;
   padding-left: 10px;
 }
 
@@ -144,11 +210,30 @@ a {
   padding-bottom: 0px;
 }
 
-.footer_contact_us_info {
+.footer_contact_us_info_gen {
   padding-left: 10px;
-  display: block;
+  display: inline-block;
+}
+
+.footer_contact_us_info_row {
+  display: flex;
 }
 
 .email {
+  text-decoration: none;
+}
+
+.footer_company {
+  float: right;
+}
+
+.ca-logo {
+  font-size: 32px;
+  font-weight: 500;
+  color: burlywood;
+}
+
+.developer {
+  color: burlywood;
   text-decoration: none;
 }

@@ -1,18 +1,25 @@
 import Link from "next/link";
 import React from "react";
 
-import styles from './../../styles/Products.module.css';
+import styles from './../../styles/Gallery.module.css';
 
-export default function NavItem({ href, text, img }) {
+export default function NavProject({ href, text, img }) {
     return (
-        <Link href={href} title="Click to view more information on this product">
+        <Link href={href}>
             <article className={styles.article}>
                 <picture className={styles.picture}>
                     <source media="(min-width: 30px)" srcSet={img} />
                     <img className={styles.pic} src={img} alt="background" />
                 </picture>
-                    <h1 className={styles.product_name}>{text}</h1>
+                <h1 className={styles.project_name}>{text}</h1>
             </article>
         </Link>
     )
 }
+
+{/* <Image
+    src="/vercel.svg"
+    width={500}
+    height={500}
+>
+</Image> */}
