@@ -45,18 +45,25 @@ export default function Navbar() {
                     href={'/'}
                     onClick={() => setActiveIdx(-1)}
                 >
-                    <h1 className="logo">CA Building Supply</h1>
+                    <picture className="logo">
+                        <source media="(min-width: 30px)" srcSet='company/logo/svg/4.svg' />
+                        <img className="logo-pic" src='company/logo/svg/4.svg' alt="background" />
+                    </picture>
                 </Link>
 
-                <div onClick={() => setNavActive(!navActive)}
-                    className="nav__menu-bar">
+                <div
+                    onClick={() => setNavActive(!navActive)}
+                    className="nav__menu-bar"
+                >
                     <div></div>
                     <div></div>
                     <div></div>
                 </div>
 
-                <div className={`${navActive ? 'active' : ''}
-                    nav__menu-list`}>
+                <div className={`${navActive ? 'active' : ''} nav__menu-list`}>
+                    <div onClick={() => setNavActive(!navActive)} className="nav__menu-close">
+                        X
+                    </div>
                     {MENU_LIST.map((menu, idx) => {
                         return (
                             <div
