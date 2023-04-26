@@ -23,7 +23,7 @@ a {
 }
 
 .logo {
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 .logo-pic {
@@ -95,6 +95,19 @@ a {
 .nav__link.active,
 .nav__link:hover {
   font-weight: 600;
+}
+
+.title {
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+.text-content {
+  padding: 50px;
+}
+
+.slideshow {
+  padding: 0 50px 50px 50px;
 }
 
 .footer {
@@ -177,23 +190,14 @@ a {
   float: right;
 }
 
-@media screen and (max-width: 977px) {
-  .logo {
-    font-size: 2.5vh;
-    padding: 10px 0px 0px 20px;
-  }
-
-  .logo-pic {
-    width: 100px;
-  }
-
-  .nav__menu-list {
+@media screen and (max-width: 1060px) {
+  /* .nav__menu-list {
     transition: all 0.3s;
   }
 
   .nav__link {
     font-size: 2vh;
-  }
+  } */
 
   .content-wrap {
     padding-bottom: 100vh;
@@ -262,7 +266,7 @@ a {
   }
 }
 
-@media screen and (min-width: 978px) {
+@media screen and (min-width: 1061px) {
   .logo-pic {
     width: 200px;
   }

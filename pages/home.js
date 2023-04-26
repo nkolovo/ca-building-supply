@@ -42,19 +42,19 @@ export default function Home() {
     ]
     return (
         <div className={styles.home}>
-            <span className={styles.products_header}>Products</span>
+            <h2 className={styles.products_header}>Products</h2>
             <div>
                 <div className={styles.product_list}>
                     {PRODUCT_LIST.map((product) => {
                         return (
-                            <div className={styles.product} 
+                            <div className={styles.product}
                                 key={product.text}>
                                 <NavProduct {...product} />
                             </div>
                         );
                     })}
                 </div>
-            </div >
+            </div>
         </div>
     )
 }
