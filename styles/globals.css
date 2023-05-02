@@ -98,12 +98,60 @@ a {
 }
 
 .title {
-  padding-top: 50px;
+  text-align: center;
   margin-bottom: 0;
+  padding-top: 50px;
+  font-weight: 600; 
+  font-size: 52px;
+}
+
+.body {
+  margin: auto;
 }
 
 .text-content {
   padding: 50px;
+}
+
+.info-text {
+  font-size: 24px;
+}
+
+ul.a {
+  list-style-type: disc;
+  color: #2b2b2b;
+}
+
+li {
+  padding-bottom: 10px;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.faq-answer {
+  padding-left: 50px; 
+  font-size: 20px; 
+} 
+
+.hours-of-operation {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: fit-content;
+}
+
+.day {
+  display: block;
+  padding-left: 50px;
+  padding-bottom: 0.5vh;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.hour {
+  padding-left: 50px;
+  text-align: right;
+  float: right;
+  font-weight: normal;
 }
 
 .slideshow {
@@ -190,6 +238,83 @@ a {
   float: right;
 }
 
+@media screen and (max-width: 335px) {
+  ul.a {
+    list-style-type: none;
+    color: #2b2b2b;
+    font-size: 24px;
+    padding-left: 0px;
+  }
+  
+  li {
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .faq-answer {
+    padding-left: 0;
+  } 
+
+  .hours-of-operation {
+    padding-top: 0;
+    padding-bottom: 20px;
+    width: fit-content;
+    margin: auto;
+  }
+  
+  .day {
+    display: grid;
+    padding: 0;
+    padding-bottom: 0.5vh;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .hour {
+    display: block;
+    font-weight: normal;
+    padding-left: 0px;
+    float: none;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 335px) and (max-width: 570px) {
+  ul.a {
+    list-style-type: none;
+    color: #2b2b2b;
+    font-size: 24px;
+    padding-left: 0px;
+  }
+  
+  li {
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .faq-answer {
+    padding-left: 0;
+  } 
+
+  .hours-of-operation {
+    padding-top: 0;
+    padding-bottom: 20px;
+    width: 80vw;
+  }
+  
+  .day {
+    display: block;
+    padding-left: 0px;
+    padding-bottom: 0.5vh;
+    font-weight: 700;
+  }
+  
+  .hour {
+    font-weight: normal;
+    padding-left: 0px;
+  }
+}
+
 @media screen and (max-width: 1060px) {
   /* .nav__menu-list {
     transition: all 0.3s;
@@ -254,6 +379,14 @@ a {
   .logo-pic-footer {
     margin-bottom: 10vh;
     width: 25vh
+  }
+
+  .title {
+    text-shadow: 0 0 10px grey;
+  }
+
+  .info-text {
+    font-size: 24px;
   }
 
   .developer {
