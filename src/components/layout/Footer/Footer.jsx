@@ -45,11 +45,11 @@ export default function Footer() {
                     Contact Us
                 </div>
                 <div className='footer_contact_us_info_gen'>
-                    <span className='footer_contact_us_info_row'>Address: Missisauga</span>
-                    <span className='footer_contact_us_info_row'>Phone Number: xxx-xxx-xxxx</span>
+                    <span className='footer_contact_us_info_row'>Address: 60 Caster Ave Woodbridge ON L4L 5Y9</span>
+                    <span className='footer_contact_us_info_row'>Phone Number: 416-885-7330</span>
                     <span className='footer_contact_us_info_row'>
                         Email: {' '}
-                        <a href="mailto:kosta@cabuildingsupply.ca" style={{ color: 'wheat' }}><span style={{ paddingLeft: '5px' }}>kosta@cabuildingsupply.ca</span></a>
+                        <a href="mailto:info@cabuildingsupply.ca" style={{ color: 'wheat' }}><span style={{ paddingLeft: '5px' }}>kosta@cabuildingsupply.ca</span></a>
                     </span>
                 </div>
             </div>

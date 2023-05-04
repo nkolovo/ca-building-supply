@@ -17,9 +17,6 @@ export default function BootstrapCarousel() {
       {bootstrap.map((item) => (
         <Carousel.Item key={item.id} className={styles.itemP} interval={4000}>
           <img src={item.imageUrl} alt="slides" />
-          <Carousel.Caption className={styles.caption}>
-            <h3>{item.title}</h3>
-          </Carousel.Caption>
         </Carousel.Item>
       ))}
     </Carousel>

@@ -7,7 +7,7 @@
 .product_list {
     margin-top: 10px !important;
     display: grid;
-    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-template-columns: repeat(3,minmax(0,1fr));
     grid-column-gap: 60px;
     grid-row-gap: 30px;
     grid-auto-rows: min-content;
@@ -46,6 +46,7 @@
     object-fit: cover;
     border: 0;
     overflow: clip;
+    border-radius: 1.5em;
     /*overflow-clip-margin: content-box;*/
 }
 
