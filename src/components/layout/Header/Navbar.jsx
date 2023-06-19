@@ -17,10 +17,10 @@ export default function Navbar() {
             text: "Values",
             href: "/values"
         },
-        {
-            text: "Products",
-            href: "/products"
-        },
+        // {
+        //     text: "Products",
+        //     href: "/products"
+        // },
         {
             text: "Gallery",
             href: "/gallery"
