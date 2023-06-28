@@ -19,7 +19,7 @@ export default function MissionStatement() {
                     </picture>
                     <h1 className="services-text">Providing services across Canada.</h1>
                     <Link className='contact-us-button-link' href="/contact-us">
-                        <button className='contact-us-button btn btn-lg btn-warning'>Contact Us</button>
+                        <button className='contact-us-button btn btn-md btn-warning'>Contact Us</button>
                     </Link>
                 </article>
             </div>

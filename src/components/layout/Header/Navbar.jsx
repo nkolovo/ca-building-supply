@@ -17,10 +17,6 @@ export default function Navbar() {
             text: "Values",
             href: "/values"
         },
-        // {
-        //     text: "Products",
-        //     href: "/products"
-        // },
         {
             text: "Gallery",
             href: "/gallery"
@@ -30,8 +26,8 @@ export default function Navbar() {
             href: "/faq"
         },
         {
-            text: "Contact Us",
-            href: "/contact-us"
+            text: "Request a Quote",
+            href: "/request-a-quote"
         },
     ]
 

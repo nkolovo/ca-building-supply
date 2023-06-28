@@ -8,6 +8,7 @@
     grid-row-gap: 30px;
     grid-auto-rows: min-content;
     margin: auto;
+    margin-bottom: 50px;
     padding: 0 25px;
     box-sizing: border-box;
 }
@@ -56,11 +57,10 @@
     object-fit: cover;
     border: 0;
     overflow: clip;
-    /*overflow-clip-margin: content-box;*/
 }
 
 .project_name {
-    font-size: 70px;
+    font-size: 3em;
     color: black;
     text-shadow: 0 0 50px black;
     text-align: center;
