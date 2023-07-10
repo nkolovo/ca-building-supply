@@ -11,9 +11,8 @@ export default function Accordion(props) {
     <div
       style={{
         width: "100%",
-        marginBottom: "15px",
-        lineHeight: "15px",
-        border: "1px solid rgba(209, 213, 219, 0.5)"
+        lineHeight: "40px",
+        margin: "20px 0px 20px 0px"
       }}
     >
       <button
@@ -29,15 +28,16 @@ export default function Accordion(props) {
           outline: "none",
           cursor: "pointer",
           color: 'white',
-          fontSize: '20px',
+          fontSize: '30px',
+          padding: "10px 0px 10px 0px"
         }}
         onClick={toggle}
         type="button"
       >
-        <p>{props.title}</p>
+        <span>{props.title}</span>
       </button>
       <div
-        style={{ display: isShowing ? "block" : "none", padding: "5px" }}
+        style={{ display: isShowing ? "block" : "none", padding: "5px", fontSize: "24px" }}
         dangerouslySetInnerHTML={{
           __html: props.content
         }}

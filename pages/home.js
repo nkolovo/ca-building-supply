@@ -5,23 +5,23 @@ import styles from '../styles/Products.module.css';
 export default function Home() {
     const PRODUCT_LIST = [
         {
-            //text: "Fast Plank",
-            img: "company/products/fastplank/fastplank-logo.jpg",
+            text: "Fast Plank",
+            img: "company/products/fastplank/FastPlank-Art.jpeg",
             href: "/products/fastplank"
         },
         {
-            //text: "James Hardie",
-            img: "company/products/jameshardie/jh-mainlogo-2x.png",
+            text: "James Hardie",
+            img: "company/products/jameshardie/JamesHardie-Art.jpg",
             href: "/products/jameshardie"
         },
         {
-            //text: "Maibec",
-            img: "company/products/maibec/maibec-logo.jpg",
+            text: "Maibec",
+            img: "company/products/maibec/Maibec-Art.jpg",
             href: "/products/maibec"
         },
         {
-            //text: "NewTechWood",
-            img: "company/products/newtechwood/newtechwood-logo.jpg",
+            text: "NewTechWood",
+            img: "company/products/newtechwood/NewTechWood-Art.jpg",
             href: "/products/newtechwood"
         },
     ]
