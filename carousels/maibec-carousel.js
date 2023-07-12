@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { items } from "./../public/company/carousel/about-us.json";
+import { items } from "./../public/company/carousel/maibec.json";
 import { Carousel } from "react-bootstrap";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,7 +16,7 @@ export default function MaibecCarousel() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       {bootstrap.map((item) => (
         <Carousel.Item key={item.id} className={styles.itemP} interval={4000}>
-          <img src={item.imageUrl} alt="slides" />
+          <img src={item.imageUrl} alt="slides" style={{ borderRadius: "1.5em" }} />
         </Carousel.Item>
       ))}
     </Carousel>

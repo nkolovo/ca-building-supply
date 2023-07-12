@@ -1,0 +1,26 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "imageUrl": "/company/products/maibec/maibec-bardeau-projet-11a-1024x613.jpeg"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/company/products/maibec/maibec-lambris-projet-11a-1024x613.jpeg"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/company/products/maibec/maibec-lambris-projet-33a-1024x613.jpeg"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/company/products/maibec/martin-dufour-3-web-1024x683.jpeg"
+        },
+        {
+          "id": 5,
+          "imageUrl": "/company/products/maibec/TEKpur_Farmhouse_V-joint_Blanc_Perspective-1_Perspective-3-1024x576.jpg"
+        }
+      ]
+    }
+  }

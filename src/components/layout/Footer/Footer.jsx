@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-import NavItem from "./../Header/NavItem";
+import NavItem from "./../Footer/NavItem";
 
 export default function Footer() {
     const MENU_LIST = [

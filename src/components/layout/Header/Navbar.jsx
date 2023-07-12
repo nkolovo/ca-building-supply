@@ -26,8 +26,8 @@ export default function Navbar() {
             href: "/faq"
         },
         {
-            text: "Request a Quote",
-            href: "/request-a-quote"
+            text: "Contact Us",
+            href: "/contact-us"
         },
     ]
 

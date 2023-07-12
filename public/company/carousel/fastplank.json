@@ -1,0 +1,26 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "imageUrl": "/company/products/fastplank/51418875279_a3266d3225_o.webp"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/company/products/fastplank/51990652483_959bb6ef1d_o.webp"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/company/products/fastplank/52437593684_9d4192e61a_o.webp"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/company/products/fastplank/FEATURE-1024x768.webp"
+        },
+        {
+          "id": 5,
+          "imageUrl": "/company/products/fastplank/Sooke-House2.webp"
+        }
+      ]
+    }
+  }

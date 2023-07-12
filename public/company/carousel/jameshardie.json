@@ -1,0 +1,22 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "imageUrl": "/company/products/jameshardie/06DDD39B-8C55-47AB-852D-E6227008F058.jpg"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/company/products/jameshardie/5719f020-9135-4209-a68d-fcffd2fae13c.jpg"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/company/products/jameshardie/D6BF1DDC-4AB9-4DCF-BA68-E98D930F4771.jpg"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/company/products/jameshardie/D7F46E90-A336-4C9B-9589-F7EC9B346EB8.jpg"
+        }
+      ]
+    }
+  }
