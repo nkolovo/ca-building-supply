@@ -3,7 +3,7 @@ import { items } from "./../public/company/carousel/maibec.json";
 import { Carousel } from "react-bootstrap";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "../styles/Bootstrap.module.css";
+import styles from "../styles/Carousel.module.css";
 
 export default function MaibecCarousel() {
   const { bootstrap } = items;
@@ -16,7 +16,7 @@ export default function MaibecCarousel() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       {bootstrap.map((item) => (
         <Carousel.Item key={item.id} className={styles.itemP} interval={4000}>
-          <img src={item.imageUrl} alt="slides" style={{ borderRadius: "1.5em" }} />
+          <img src={item.imageUrl} alt="slides" />
         </Carousel.Item>
       ))}
     </Carousel>

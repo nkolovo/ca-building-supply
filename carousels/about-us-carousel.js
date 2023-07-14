@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { items } from "./../public/company/carousel/about-us.json";
+import { items } from "./../public/company/carousel/newtechwood.json";
 import { Carousel } from "react-bootstrap";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "../styles/Bootstrap.module.css";
+import styles from "../styles/Carousel.module.css";
 
-export default function BootstrapCarousel() {
+export default function NewTechWoodCarousel() {
   const { bootstrap } = items;
   const [index, setIndex] = useState(0);
 

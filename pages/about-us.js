@@ -1,6 +1,6 @@
 import React from "react";
 
-import BootstrapCarousel from "@/carousels/Bootstrap";
+import Carousel from "@/carousels/about-us-carousel";
 
 export default function AboutUs() {
     return (
@@ -14,7 +14,7 @@ export default function AboutUs() {
                 </article>
 
                 <div className="slideshow">
-                    <BootstrapCarousel />
+                    <Carousel />
                 </div>
             </div>
         </div>
