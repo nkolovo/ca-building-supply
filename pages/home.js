@@ -26,7 +26,7 @@ export default function Home() {
         },
     ]
     return (
-        <div className={styles.home}>
+        <div className="Home">
             <h2 className="title">Products</h2>
             <div>
                 <div className={styles.product_list}>

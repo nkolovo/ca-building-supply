@@ -16,7 +16,7 @@ export default function JamesHardieCarousel() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       {bootstrap.map((item) => (
-        <Carousel.Item key={item.id} className={styles.itemP} interval={4000}>
+        <Carousel.Item className={styles.itemP} interval={4000}>
           <img src={item.imageUrl} alt="slides" />
         </Carousel.Item>
       ))}

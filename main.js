@@ -6,10 +6,6 @@ const formidable = require("formidable");
 
 var jsdom = require('jsdom');
 const { JSDOM } = jsdom;
-const { window } = new JSDOM();
-const { document } = (new JSDOM('')).window;
-global.document = document;
-var $ = jQuery = require('jquery')(window);
 
 const server = http.createServer(function(req, res) {
 

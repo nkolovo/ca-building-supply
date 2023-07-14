@@ -5,7 +5,7 @@ import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/Carousel.module.css";
 
-export default function NewTechWoodCarousel() {
+export default function AboutUsCarousel() {
   const { bootstrap } = items;
   const [index, setIndex] = useState(0);
 
@@ -15,7 +15,7 @@ export default function NewTechWoodCarousel() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       {bootstrap.map((item) => (
-        <Carousel.Item key={item.id} className={styles.itemP} interval={4000}>
+        <Carousel.Item className={styles.itemP} interval={4000}>
           <img src={item.imageUrl} alt="slides" />
         </Carousel.Item>
       ))}

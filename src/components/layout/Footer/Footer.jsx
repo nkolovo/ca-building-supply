@@ -98,7 +98,7 @@ export default function Footer() {
                         rel='noopener noreferrer'
                     >
                         <picture className="developer-logo">
-                            <source media="(min-width: 30px)" srcSet='developer-logo/Kolovos WD.svg' />
+                            <source media="(min-width: 30px)" />
                             <img className="developer-pic" src='developer-logo/Kolovos WD.svg' alt="background" />
                         </picture>
                     </a>

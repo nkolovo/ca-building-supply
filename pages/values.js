@@ -15,7 +15,7 @@ export default function Values() {
                 <div className="services-image">
                     <article className='services-article'>
                         <picture className="canada-picture">
-                            <source media="(min-width: 30px)" srcSet="company/about_us/canada.jpg" />
+                            <source media="(min-width: 30px)" />
                             <img className="canada" src="company/about_us/canada.jpg" alt="map of canada" />
                         </picture>
                         <h1 className="services-text">Providing services across Canada.</h1>

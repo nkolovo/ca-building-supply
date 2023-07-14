@@ -8,7 +8,7 @@ export default function NavItem({ href, img, text }) {
         <article className={styles.article}>
             <Link href={href} title="Click to view more information on this product">
                 <picture className={styles.picture}>
-                    <source media="(min-width: 30px)" srcSet={img} />
+                    <source media="(min-width: 30px)" />
                     <img className={styles.pic} src={img} alt="product background" />
                 </picture>
                 <h1 className={styles.product_name}>{text}</h1>

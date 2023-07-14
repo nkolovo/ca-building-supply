@@ -1,8 +1,8 @@
-export default function RequestQuote() {
+export default function ContactUs() {
     return (
-        <div className="request-a-quote">
+        <div className="contact-us">
             <div className="title">
-                Request a Quote
+                Contact Us
             </div>
             <div className="body">
                 <article>
