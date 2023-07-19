@@ -41,7 +41,7 @@ export default function Footer() {
     return (
         <footer className='footer'>
             <div className="row">
-                <div className="col-12 col-xl-3">
+                <div className="col-12 col-xl-2 col-lg-2">
                     <div className="contact-info">
                         <div className='footer_contact_us_title'>
                             Contact Us
@@ -69,7 +69,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="col-6 footer_tabs_parent">
+                <div className="col-7 footer_tabs_parent">
                     <div className="footer_tabs">
                         {MENU_LIST.map((menu, idx) => {
                             return (

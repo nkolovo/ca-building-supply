@@ -10,13 +10,18 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
-    "jquery": "^3.7.0",
+    "fomantic-ui": "^2.9.2",
     "jsdom": "^22.1.0",
     "next": "^13.3.0",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "18.2.0",
-    "semantic-ui-accordion": "^2.5.0",
-    "semantic-ui-icon": "^2.5.0"
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
   }
 }

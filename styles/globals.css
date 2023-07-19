@@ -2,6 +2,11 @@
   overflow-x: hidden;
 }
 
+* {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 .ca-building-supply {
   position: relative;
   min-height: 100vh;
@@ -119,7 +124,7 @@ a {
   font-size: 24px;
 }
 
-ul.a {
+/* ul.a {
   list-style-type: disc;
   color: #2b2b2b;
   font-size: large;
@@ -129,7 +134,7 @@ li {
   padding-bottom: 10px;
   font-style: italic;
   font-size: 24px;
-}
+} */
 
 .faq-answer {
   padding-left: 50px;
@@ -155,6 +160,14 @@ li {
   text-align: right;
   float: right;
   font-weight: normal;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
 }
 
 .slideshow {
@@ -220,7 +233,7 @@ li {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 15rem;
+  height: 17rem;
   padding-left: 10px;
 }
 
@@ -461,6 +474,7 @@ li {
 
   .developer {
     display: block;
+    padding-right: 0;
   }
 
   .developer-pic {
