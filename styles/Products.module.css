@@ -64,7 +64,7 @@
     word-wrap: break-word;
     right: 0;
     height: fit-content;
-    margin: auto;
+    margin: auto !important;
 }
 
 @media screen and (max-width: 1200px) {
