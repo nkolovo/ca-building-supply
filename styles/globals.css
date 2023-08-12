@@ -135,11 +135,17 @@ a {
 
 .entry {
   font-size: 24px;
+  padding-left: 10px;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .input {
   display: block;
   margin-left: 10px;
+  border-radius: 0.3rem;
+  border-width: thin;
 }
 
 textarea {
@@ -375,6 +381,10 @@ textarea {
     left: 0;
     right: 0;
   }
+
+  .input {
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 335px) and (max-width: 570px) {
@@ -526,6 +536,13 @@ textarea {
   }
 }
 
+
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+  .info-entry {
+  margin: 0;
+}
+}
 @media screen and (min-width: 1061px) {
   .logo-pic {
     width: 200px;
