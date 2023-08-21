@@ -39,7 +39,7 @@ export default function ContactUs() {
                             </div>
                             <div className="info-entry col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <span className="entry">Company Name:
-                                    <input className="input" id="companyName" name="Company Name" type="text" />
+                                    <input className="input" id="companyName" name="CompanyName" type="text" />
                                 </span>
                             </div>
                             <div className="info-entry col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -59,20 +59,15 @@ export default function ContactUs() {
                             </div>
                             <div className="info-entry col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <span className="entry">Postal Code:
-                                    <input className="input" id="postalCode" name="Postal Code" />
+                                    <input className="input" id="postalCode" name="PostalCode" />
                                 </span>
                             </div>
                             <div className="info-entry col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <span className="entry">Work Phone:
-                                    <input className="input" id="workPhone" name="Work Phone" />
+                                <span className="entry">Phone Number*:
+                                    <input className="input" id="phone" name="Phone" required />
                                 </span>
                             </div>
-                            <div className="info-entry col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                <span className="entry">Mobile Phone:
-                                    <input className="input" id="mobilePhone" name="Mobile Phone" />
-                                </span>
-                            </div>
-                            <div className="info-entry col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                            <div className="info-entry col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span className="entry">Message:
                                     <textarea className="input" id="message" name="Message" />
                                 </span>

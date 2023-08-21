@@ -1,21 +1,33 @@
 import { mailOptions, transporter } from "@/config/nodemailer";
 
+var count = 0;
+
 const handler = async (req, res) => {
+    count++;
+    console.log("Count: " + count);
     if (req.method === "POST") {
         const data = req.body;
         console.log("Data: ", data);
-        if (!data.Name || !data.Email) {
+        if (!data.Name || !data.Email || !data.Phone) {
             // Sends a HTTP bad request error code
-            return res.status(400).json({ data: 'Name or Email not found' })
+            return res.status(400).json({ data: 'Name, Email, or Phone not found' })
         }
     }
 
     try {
         await transporter.sendMail({
             ...mailOptions,
-            subject: "Quote",
+            subject: "Online Lead " + count,
             text: "This is a test string",
-            html: "<h1>Test Title</h1><p>Some body text</p>",
+            html: "<p>Name: " + req.body.Name + "</p>" + 
+            "<p>Email: " + req.body.Email + "</p>" +
+            "<p>Company Name: " + req.body.Company + "</p>" +
+            "<p>Address: " + req.body.Address + "</p>" +
+            "<p>City: " + req.body.City + "</p>" +
+            "<p>Province: " + req.body.Province + "</p>" +
+            "<p>Postal Code: " + req.body.Postal + "</p>" +
+            "<p>Work Phone: " + req.body.Phone + "</p>" +
+            "<p>Message: " + req.body.Message + "</p>",
         });
 
         return res.status(200).json({ success: true });
