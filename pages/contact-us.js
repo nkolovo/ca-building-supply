@@ -1,6 +1,10 @@
 export default function ContactUs() {
     async function handleSubmit(e) {
         e.preventDefault();
+        const submitButton = e.currentTarget.children[2];
+        submitButton.disabled = true;
+        const completedText = e.currentTarget.children[3];
+        const errorText = e.currentTarget.children[4];
         const data = new FormData(e.currentTarget);
         try {
             const response = await fetch('/api/contact', {
@@ -10,10 +14,12 @@ export default function ContactUs() {
             if (!response.ok) {
                 throw new Error(`Invalid response: ${response.status}`);
             }
-            alert('Thanks for contacting us, we will get back to you soon!');
+            submitButton.disabled = false;
+            completedText.style.display = "block";
+            completedText.style.textAlign = "center";
         } catch (err) {
-            console.log(err);
-            alert("We can't submit the form, please try again later.");
+            errorText.style.display = "block";
+            errorText.style.textAlign = "center";
         }
     }
 
@@ -81,6 +87,12 @@ export default function ContactUs() {
                         <button className="btn btn-lg btn-warning submit-info" type="submit">
                             <span>Submit</span>
                         </button>
+                        <div style={{ display: "none", textAlign: "center", paddingBottom: 20 }}>
+                            <span style={{ fontSize: 24, color: "orangered" }}>Thanks for contacting us, we will get back to you soon!</span>
+                        </div>
+                        <div style={{ display: "none", textAlign: "center", paddingBottom: 20 }}>
+                            <span style={{ fontSize: 24, color: "orangered" }}>There was a problem submitting the form. Please try again later</span>
+                        </div>
                     </form>
                 </article>
             </div>

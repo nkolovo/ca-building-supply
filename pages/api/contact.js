@@ -25,7 +25,7 @@ const handler = async (req, res) => {
             "<p>Address: " + req.body.Address + "</p>" +
             "<p>City: " + req.body.City + "</p>" +
             "<p>Province: " + req.body.Province + "</p>" +
-            "<p>Postal Code: " + req.body.Postal + "</p>" +
+            "<p>Postal Code: " + req.body.PostalCode + "</p>" +
             "<p>Work Phone: " + req.body.Phone + "</p>" +
             "<p>Message: " + req.body.Message + "</p>",
         });

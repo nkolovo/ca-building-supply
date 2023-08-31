@@ -42,7 +42,7 @@ export default function Navbar() {
                     onClick={() => setActiveIdx(-1)}
                 >
                     <picture className="logo">
-                        <source media="(min-width: 30px)" srcSet='company/logo/svg/4.svg' />
+                        <source media="(min-width: 30px)" srcSet='company/logo/thumbnail_CAB_Logo_Horiz_RGB.jpg' />
                         <img className="logo-pic" src='company/logo/svg/4.svg' alt="background" />
                     </picture>
                 </Link>
