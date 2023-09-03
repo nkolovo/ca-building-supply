@@ -36,7 +36,7 @@ a {
 }
 
 .logo-pic-footer {
-  width: 150px;
+  width: 200px;
 }
 
 .nav {
@@ -136,7 +136,7 @@ a {
   font-size: 24px;
   padding-left: 10px;
   font-weight: 500;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -275,6 +275,14 @@ textarea {
   width: 100%;
   height: 17rem;
   padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer>div {
+  width: 335px;
+  height: 100px;
+  text-align: center;
 }
 
 .contact-info {
@@ -288,6 +296,7 @@ textarea {
   font-size: 28px;
   padding-bottom: 10px;
   display: block;
+  text-align: left;
 }
 
 .footer_contact_us_info_gen {
@@ -300,45 +309,63 @@ textarea {
   padding-bottom: 1vh;
 }
 
+.footer_contact_us_links {
+  padding-left: 5px; 
+  text-decoration: underline;
+}
+
 .email {
   text-decoration: none;
 }
 
-.footer_tabs_parent {
-  display: inline-block;
-  align-items: center;
-  text-align: center;
-}
-
-.footer_tabs {
-  display: inline;
-  width: 100%;
-  margin: auto;
-}
-
-.footer_tabs_row {
-  width: fit-content;
-}
-
 .footer_company {
-  display: inline;
-  height: fit-content;
-  float: right;
+  margin: auto;
 }
 
 .footer_company-logo {
   padding-right: 5vh;
-  justify-content: center;
 }
 
-.developer {
-  display: block;
-  padding-right: 5vh;
+.footer_developer {
+  align-self: center;
 }
 
 .developer-pic {
-  width: 80px;
-  float: right;
+  width: 120px;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1059px) and (max-height: 700px) {
+  .footer_company {
+    display: flex !important;
+    position: absolute !important;
+    top: 67vh !important;
+    left: 10% !important
+  }
+
+  .footer_developer {
+    display: flex;
+    position: absolute !important;
+    top: 67vh !important;
+    height: fit-content;
+    right: 10% !important;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .footer_company {
+    display: flex !important;
+    position: absolute !important;
+    top: 67vh !important;
+    left: 10% !important
+  }
+
+  .footer_developer {
+    display: flex;
+    position: absolute !important;
+    top: 67vh !important;
+    height: fit-content;
+    right: 10% !important;
+  }
 }
 
 @media screen and (max-width: 335px) {
@@ -384,6 +411,14 @@ textarea {
   .input {
     margin: auto;
   }
+
+  .footer_contact_us_info_row {
+    font-size: 5vw !important;
+  }
+
+  .footer_contact_us_links {
+    font-size: 3.5vw !important;
+  }
 }
 
 @media screen and (min-width: 335px) and (max-width: 570px) {
@@ -428,11 +463,19 @@ textarea {
   .contact-us-button {
     font-size: 5px;
   }
+
+  .footer_contact_us_links {
+    font-size: 2.5vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .contact-us-article {
     text-align: -webkit-center;
+  }
+
+  .footer_contact_us_links {
+    font-size: 2.5vw;
   }
 }
 
@@ -451,10 +494,21 @@ textarea {
 
   .footer {
     height: 100vh !important;
+    display: block;
+  }
+
+  .footer > div {
+    all: unset;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 33vh;
+    text-align: center;
   }
 
   .contact-info {
-    display: block;
+    display: block !important;
     padding: 0;
   }
 
@@ -480,25 +534,25 @@ textarea {
     justify-content: center;
     height: fit-content;
     width: 100%;
-    font-size: 2.5vh;
     margin-bottom: 11vh;
     padding: 5px 0px 0px 20px;
   }
 
   .footer_contact_us_info_row {
     overflow-wrap: break-word;
+    font-size: 3vh;
   }
 
-  .footer_tabs {
-    display: none;
+  .footer_contact_us_links {
+    font-size: 2.5vh;
   }
 
   .footer_company {
-    height: fit-content;
-    position: relative;
-    float: none !important;
-    text-align: center;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 33vh;
   }
 
   .footer_company-logo {
@@ -518,9 +572,13 @@ textarea {
     font-size: 24px;
   }
 
-  .developer {
-    display: block;
-    padding-right: 0;
+  .footer_developer {
+    display: block !important;
+    height: 33vh !important;
+  }
+
+  .developer-logo {
+    text-align: center;
   }
 
   .developer-pic {
@@ -529,19 +587,12 @@ textarea {
   }
 }
 
-@media screen and (max-width: 1121px) {
-  .footer_tabs_parent {
-    width: 49%;
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .info-entry {
+    margin: 0;
   }
 }
 
-
-@media screen and (min-width: 992px) and (max-width: 1199px)
-{
-  .info-entry {
-  margin: 0;
-}
-}
 @media screen and (min-width: 1061px) {
   .logo-pic {
     width: 200px;
