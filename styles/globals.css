@@ -499,6 +499,12 @@ textarea {
     width: 234.5px !important;
     height: 115px;
   }
+
+  .text-content {
+    padding: 0 50px 50px 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
 }
 
 @media screen and (max-width: 1060px) {
