@@ -280,7 +280,7 @@ textarea {
 }
 
 .footer>div {
-  width: 335px;
+  width: 350px;
   height: 100px;
   text-align: center;
 }
@@ -590,10 +590,6 @@ textarea {
   .logo-pic-footer {
     width: 234.5px !important;
     height: 115px;
-  }
-
-  .title {
-    text-shadow: 0 0 10px grey;
   }
 
   .info-text {

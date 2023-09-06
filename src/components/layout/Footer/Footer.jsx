@@ -8,7 +8,7 @@ export default function Footer() {
                     Contact Us
                 </div>
                 <div className='footer_contact_us_info_gen'>
-                    <span className='footer_contact_us_info_row' style={{ display: "inline-block" }}>Address:
+                    <span className='footer_contact_us_info_row'>Address:
                         <a href="https://www.google.com/maps/place/60+Caster+Ave,+Woodbridge,+ON+L4L+5Y9/@43.78467,-79.5578496,17z/data=!3m1!4b1!4m6!3m5!1s0x882b2ff5ce7814e9:0xd8fd8cb8f531fd1!8m2!3d43.78467!4d-79.5578496!16s%2Fg%2F11c26kthj4?entry=ttu" style={{ color: "wheat" }}>
                             <span className="footer_contact_us_links">
                                 60 Caster Ave Woodbridge ON L4L 5Y9
