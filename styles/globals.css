@@ -121,7 +121,7 @@ a {
 }
 
 .contact-us-header {
-  margin-bottom: 50px;
+  margin: 0 15px 50px 15px;
   font-size: 24px;
   text-align: center;
   color: darkgoldenrod;
@@ -473,7 +473,7 @@ textarea {
   }
 
   .contact-us-button {
-    font-size: 5px;
+    font-size: 12px;
   }
 
   .footer_contact_us_links {

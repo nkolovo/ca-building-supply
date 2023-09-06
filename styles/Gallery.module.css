@@ -87,8 +87,8 @@
     }
 
     .article {
-        height: 40vw;
-        width: 40vw;
+        height: 80vw;
+        width: 80vw;
         position: relative;
     }
 }
