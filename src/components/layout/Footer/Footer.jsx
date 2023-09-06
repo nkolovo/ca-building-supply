@@ -39,7 +39,7 @@ export default function Footer() {
                     </picture>
                 </div>
             </div>
-            <div className="footer_developer">
+            {/* <div className="footer_developer">
                 <a
                     href='https://github.com/nkolovo?tab=projects'
                     target='_blank'
@@ -50,7 +50,7 @@ export default function Footer() {
                         <img className="developer-pic" src='developer-logo/Kolovos WD.svg' alt="developer-logo" />
                     </picture>
                 </a>
-            </div>
+            </div> */}
         </footer >
     )
 }
