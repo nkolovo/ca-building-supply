@@ -34,8 +34,8 @@ export default function Footer() {
             <div className="footer_company">
                 <div className="footer_company-logo">
                     <picture className="ca-logo">
-                        <source media="(min-width: 30px)" srcSet='company/logo/thumbnail_CAB_Logo_Horiz_RGB.jpg' />
-                        <img className="logo-pic-footer" src='company/logo/thumbnail_CAB_Logo_Horiz_RGB.jpg' alt="company-logo" />
+                        <source media="(min-width: 30px)" srcSet='company/logo/logo.jpg' />
+                        <img className="logo-pic-footer" src='company/logo/logo.jpg' alt="company-logo" />
                     </picture>
                 </div>
             </div>
