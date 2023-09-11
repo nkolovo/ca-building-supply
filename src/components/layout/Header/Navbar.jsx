@@ -42,8 +42,8 @@ export default function Navbar() {
                     onClick={() => setActiveIdx(-1)}
                 >
                     <picture className="logo">
-                        <source media="(min-width: 30px)" srcSet='company/logo/logo.jpg' />
-                        <img className="logo-pic" src='company/logo/logo.jpg' alt="background" />
+                        <source media="(min-width: 30px)" srcSet='company/logo/dark-logo.png' />
+                        <img className="logo-pic" src='company/logo/dark-logo.png' alt="background" />
                     </picture>
                 </Link>
 

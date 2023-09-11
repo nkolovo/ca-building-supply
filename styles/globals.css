@@ -44,7 +44,7 @@ a {
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: #2b2b2b;
+  background-color: #939e9e;
 }
 
 .nav__menu-bar {
@@ -71,7 +71,7 @@ a {
   row-gap: 8vh;
   padding: 24px 16px;
   right: -100%;
-  background-color: #2b2b2b;
+  background-color: #939e9e;
   transition: all 0.3s;
   align-items: center;
   overflow-y: hidden;
@@ -83,18 +83,19 @@ a {
 }
 
 .nav__menu-close {
-  color: white;
+  color: black;
   font-size: 24px;
   font-weight: 700;
   cursor: pointer;
   margin-left: auto;
+  padding-right: 10px;
 }
 
 .nav__link {
   font-size: 18px;
   position: relative;
   transition: all 0.2s;
-  color: ghostwhite;
+  color: black;
 }
 
 .nav__link.active,
@@ -268,8 +269,8 @@ textarea {
 }
 
 .footer {
-  background-color: #2b2b2b;
-  color: whitesmoke;
+  background-color: #939e9e;
+  color: black;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -292,11 +293,12 @@ textarea {
 }
 
 .footer_contact_us_title {
-  color: whitesmoke;
+  color: #2b2b2b;
   font-size: 28px;
   padding-bottom: 10px;
   display: block;
   text-align: left;
+  font-weight: 600;
 }
 
 .footer_contact_us_info_gen {
@@ -307,11 +309,15 @@ textarea {
 .footer_contact_us_info_row {
   display: flex;
   padding-bottom: 1vh;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: 600;
 }
 
 .footer_contact_us_links {
   padding-left: 5px;
   text-decoration: underline;
+  color: navy;
 }
 
 .email {
@@ -536,6 +542,12 @@ textarea {
     text-align: center;
   }
 
+  .footer_contact_us_parent_link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
   .contact-info {
     display: block !important;
     padding: 0;
@@ -553,8 +565,8 @@ textarea {
     height: 10vh;
     font-size: 8vh !important;
     text-align: center;
-    margin-bottom: 2vh;
-    text-shadow: 0 0px 20px burlywood;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     display: block;
   }
 
@@ -563,7 +575,7 @@ textarea {
     justify-content: center;
     height: fit-content;
     width: 100%;
-    margin-bottom: 11vh;
+    margin-bottom: 6vh;
     padding: 5px 0px 0px 0px;
   }
 
@@ -630,6 +642,7 @@ textarea {
 
   .nav__menu-close {
     display: none;
+    color: black;
   }
 
   .nav__menu-list {
