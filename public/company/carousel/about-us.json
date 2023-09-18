@@ -3,19 +3,19 @@
       "bootstrap": [
         {
           "id": 1,
-          "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/v1586799813/kizmelvin/persons_pigeon_nurkq2.jpg"
+          "imageUrl": "/company/about_us/lumber_yard_1.jpg"
         },
         {
           "id": 2,
-          "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/v1587785064/kizmelvin/michael-BcgEo2CNeYA-unsplash_cdaruk.jpg"
+          "imageUrl": "/company/about_us/lumber_yard_2.jpg"
         },
         {
           "id": 3,
-          "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/v1586799827/kizmelvin/brownlion_qm8hah.jpg"
+          "imageUrl": "/company/about_us/lumber_yard_3.jpg"
         },
         {
           "id": 4,
-          "imageUrl": "https://res.cloudinary.com/kizmelvin/image/upload/v1587870308/kizmelvin/edvin-johansson-5AylXcpJn1I-unsplash_lbhgod.jpg"
+          "imageUrl": "/company/about_us/lumber_yard_4.jpg"
         }
       ]
     }

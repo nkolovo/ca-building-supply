@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { items } from "./../public/company/carousel/newtechwood.json";
+import { items } from "./../public/company/carousel/about-us.json";
 import { Carousel } from "react-bootstrap";
 
 import "bootstrap/dist/css/bootstrap.min.css";
