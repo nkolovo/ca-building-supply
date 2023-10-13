@@ -1,0 +1,34 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "imageUrl": "/company/products/trex/trex-cover.jpeg"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/company/products/trex/enh-gigharbor-004-cs-trn-railing-glass-dream-home-hero-pergola-lake.jpeg"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/company/products/trex/trn-cgi-render-001-gp-trn-railing-wt-adirondacks-pool-lake-trees.jpeg"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/company/products/trex/trn-lineage-auburn-005-bc-sig-alum-glass-42-railing-lake-boat-flag-sitting-area.jpeg"
+        },
+        {
+          "id": 5,
+          "imageUrl": "/company/products/trex/trn-morrison-012-bc-sig-rodrail-bk-dreamhome-cladding-side-view.jpeg"
+        },
+        {
+          "id": 6,
+          "imageUrl": "/company/products/trex/trn-santafe-018-tt-smarthome-night-lighting-furniture_Article-Image-Body.jpg"
+        },
+        {
+          "id": 7,
+          "imageUrl": "/company/products/trex/trn-tt-lr-001-simon-thomas-dragon-logo-view-chaise.jpg"
+        }
+      ]
+    }
+  }

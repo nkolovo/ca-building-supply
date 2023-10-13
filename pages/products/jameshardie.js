@@ -2,7 +2,7 @@ import React from "react";
 
 import JamesHardieCarousel from "@/carousels/jameshardie-carousel";
 
-export default function NewTechWood() {
+export default function JamesHardie() {
     return (
         <div className="james_hardie">
             <div className="title">

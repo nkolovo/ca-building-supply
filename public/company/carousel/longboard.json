@@ -1,0 +1,38 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "imageUrl": "/company/products/longboard/longboard-cover.webp"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/company/products/longboard/6-22-V-Groove-Light-National-Walnut-2.jpeg"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/company/products/longboard/Auahi-Shops-8-13-005.JPG-scaled.jpg"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/company/products/longboard/Ceiling-e1665173786259.jpg"
+        },
+        {
+          "id": 5,
+          "imageUrl": "/company/products/longboard/longoard pic.jpeg"
+        },
+        {
+          "id": 6,
+          "imageUrl": "/company/products/longboard/orleans-health-hub-facade-reflection-1500-975.webp"
+        },
+        {
+          "id": 7,
+          "imageUrl": "/company/products/longboard/PrivacyScreenSystem-End-Frame-1.jpeg"
+        },
+        {
+          "id": 8,
+          "imageUrl": "/company/products/longboard/TheCommons_NEFacade_Web-1.jpeg"
+        }
+      ]
+    }
+  }

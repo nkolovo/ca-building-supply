@@ -2,7 +2,7 @@ import React from "react";
 
 import FastPlankCarousel from "@/carousels/fastplank-carousel";
 
-export default function NewTechWood() {
+export default function FastPlank() {
     return (
         <div className="james_hardie">
             <div className="title">

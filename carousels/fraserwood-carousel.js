@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { items } from "./../public/company/carousel/jameshardie.json";
+import { items } from "./../public/company/carousel/fraserwood.json";
 import { Carousel } from "react-bootstrap";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/Carousel.module.css";
 
-export default function JamesHardieCarousel() {
+export default function FraserWoodCarousel() {
   const { bootstrap } = items;
   const [index, setIndex] = useState(0);
 
@@ -18,7 +18,8 @@ export default function JamesHardieCarousel() {
         <Carousel.Item className={styles.itemP} interval={4000}>
           <img src={item.imageUrl} alt="slides" />
         </Carousel.Item>
-      ))}
-    </Carousel>
+      ))
+      }
+    </Carousel >
   );
 }

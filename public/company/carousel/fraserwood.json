@@ -1,0 +1,34 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "imageUrl": "/company/products/fraserwood/fraserwood-cover.jpg"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/company/products/fraserwood/6_1400x900.jpg"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/company/products/fraserwood/Dewhurst-Exteriors-15.jpg"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/company/products/fraserwood/Edmundston-Municipal-Building-Front-3.jpg"
+        },
+        {
+          "id": 5,
+          "imageUrl": "/company/products/fraserwood/fraser-40-5_1400x900.jpg"
+        },
+        {
+          "id": 6,
+          "imageUrl": "/company/products/fraserwood/Fraser-siding-and-trim_1400x900.jpg"
+        },
+        {
+          "id": 7,
+          "imageUrl": "/company/products/fraserwood/NBHL-001-1_1400x900.jpg"
+        }
+      ]
+    }
+  }

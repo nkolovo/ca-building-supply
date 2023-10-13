@@ -1,0 +1,34 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "imageUrl": "/company/products/azek/azek-cover.jpg"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/company/products/azek/Inspiration-Gallery-English-Walnut-Vintage-Advanced-PVC-Aurora-Beauty-1.jpg"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/company/products/azek/Inspiration-Gallery-French-White-Oak-Vintage-Advanced-PVC-Hoopes-Vineyard-Napa-Valley-Beauty-3.jpg"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/company/products/azek/Inspiration-Gallery-Mahogany-Multiwidth-Vintage-PVC-Glencoe-Beauty-2.jpg"
+        },
+        {
+          "id": 5,
+          "imageUrl": "/company/products/azek/Inspiration-Gallery-Weathered-Teak-Vintage-Advanced-PVC-Los-Angeles-Beauty-5.jpg"
+        },
+        {
+          "id": 6,
+          "imageUrl": "/company/products/azek/TimberTech-Coastline-NJ-Vintage-Collection-AZEK-Decking-inspiration-gallery-5.jpg"
+        },
+        {
+          "id": 7,
+          "imageUrl": "/company/products/azek/TimberTech-Weathered-Teak-OH-Vintage-Collection-AZEK-Decking-wide-width-inspiration-gallery-1.jpg"
+        }
+      ]
+    }
+  }

@@ -2,7 +2,7 @@ import React from "react";
 
 import MaibecCarousel from "@/carousels/maibec-carousel";
 
-export default function NewTechWood() {
+export default function Maibec() {
     return (
         <div className="maibec">
             <div className="title">
