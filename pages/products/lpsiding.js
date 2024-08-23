@@ -1,6 +1,6 @@
 import React from "react";
 
-import LPSidingCarousel from "@/carousels/lpsiding-carousel";
+import LPSidingCarousel from "@/carousels/dynamic-carousel";
 import { items } from "../../public/company/carousel/lpsiding.json";
 
 export default function LPSiding() {

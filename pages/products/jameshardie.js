@@ -1,6 +1,7 @@
 import React from "react";
 
-import JamesHardieCarousel from "@/carousels/jameshardie-carousel";
+import JamesHardieCarousel from "@/carousels/dynamic-carousel";
+import { items } from "../../public/company/carousel/jameshardie.json";
 
 export default function JamesHardie() {
     return (
@@ -15,7 +16,7 @@ export default function JamesHardie() {
             </div>
 
             <div className="slideshow">
-                <JamesHardieCarousel />
+                <JamesHardieCarousel {...items} />
             </div>
         </div>
     )

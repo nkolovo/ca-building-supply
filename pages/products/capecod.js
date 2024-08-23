@@ -1,6 +1,6 @@
 import React from "react";
 
-import CapeCodCarousel from "@/carousels/capecod-carousel";
+import CapeCodCarousel from "@/carousels/dynamic-carousel";
 import { items } from "./../../public/company/carousel/capecodsiding.json";
 
 export default function CapeCod() {

@@ -1,6 +1,7 @@
 import React from "react";
 
-import TrexCarousel from "@/carousels/trex-carousel";
+import TrexCarousel from "@/carousels/dynamic-carousel";
+import { items } from "../../public/company/carousel/trex.json";
 
 export default function Trex() {
     return (
@@ -14,7 +15,7 @@ export default function Trex() {
                 </article>
             </div>
             <div className="slideshow">
-                <TrexCarousel />
+                <TrexCarousel {...items} />
             </div>
         </div>
     )

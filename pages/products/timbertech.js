@@ -1,6 +1,6 @@
 import React from "react";
 
-import TimberTechCarousel from "@/carousels/timbertech-carousel";
+import TimberTechCarousel from "@/carousels/dynamic-carousel";
 import { items } from "../../public/company/carousel/timbertech.json";
 
 export default function Blueskin() {

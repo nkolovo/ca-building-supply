@@ -1,6 +1,6 @@
 import React from "react";
 
-import TyvekCarousel from "@/carousels/tyvek-carousel";
+import TyvekCarousel from "@/carousels/dynamic-carousel";
 import { items } from "./../../public/company/carousel/tyvek.json";
 
 export default function Tyvek() {

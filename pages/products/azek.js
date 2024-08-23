@@ -1,6 +1,7 @@
 import React from "react";
 
-import AzekCarousel from "@/carousels/azek-carousel";
+import AzekCarousel from "@/carousels/dynamic-carousel";
+import { items } from "../../public/company/carousel/azek.json";
 
 export default function Azek() {
     return (
@@ -14,7 +15,7 @@ export default function Azek() {
                 </article>
             </div>
             <div className="slideshow">
-                <AzekCarousel />
+                <AzekCarousel {...items} />
             </div>
         </div>
     )

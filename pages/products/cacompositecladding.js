@@ -1,6 +1,6 @@
 import React from "react";
 
-import CACompositeCladdingCarousel from "@/carousels/cacompositecladding-carousel";
+import CACompositeCladdingCarousel from "@/carousels/dynamic-carousel";
 import { items } from "../../public/company/carousel/cacompositecladding.json";
 
 export default function CACompositeCladding() {

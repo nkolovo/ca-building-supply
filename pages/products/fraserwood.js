@@ -1,6 +1,7 @@
 import React from "react";
 
-import FraserWoodCarousel from "@/carousels/fraserwood-carousel";
+import FraserWoodCarousel from "@/carousels/dynamic-carousel";
+import { items } from "../../public/company/carousel/fraserwood.json";
 
 export default function FraserWood() {
     return (
@@ -14,7 +15,7 @@ export default function FraserWood() {
                 </article>
             </div>
             <div className="slideshow">
-                <FraserWoodCarousel />
+                <FraserWoodCarousel {...items} />
             </div>
         </div>
     )

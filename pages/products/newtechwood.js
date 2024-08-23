@@ -1,6 +1,7 @@
 import React from "react";
 
-import NewTechWoodCarousel from "@/carousels/newtechwood-carousel";
+import NewTechWoodCarousel from "@/carousels/dynamic-carousel";
+import { items } from "../../public/company/carousel/newtechwood.json";
 
 export default function NewTechWood() {
     return (
@@ -14,7 +15,7 @@ export default function NewTechWood() {
                 </article>
             </div>
             <div className="slideshow">
-                <NewTechWoodCarousel />
+                <NewTechWoodCarousel {...items} />
             </div>
         </div>
     )

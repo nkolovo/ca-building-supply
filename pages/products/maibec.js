@@ -1,6 +1,7 @@
 import React from "react";
 
-import MaibecCarousel from "@/carousels/maibec-carousel";
+import MaibecCarousel from "@/carousels/dynamic-carousel";
+import { items } from "../../public/company/carousel/maibec.json";
 
 export default function Maibec() {
     return (
@@ -15,7 +16,7 @@ export default function Maibec() {
             </div>
 
             <div className="slideshow">
-                <MaibecCarousel />
+                <MaibecCarousel {...items} />
             </div>
         </div>
     )

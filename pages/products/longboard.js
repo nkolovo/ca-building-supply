@@ -1,6 +1,7 @@
 import React from "react";
 
-import LongboardCarousel from "@/carousels/longboard-carousel";
+import LongboardCarousel from "@/carousels/dynamic-carousel";
+import { items } from "../../public/company/carousel/longboard.json";
 
 export default function Longboard() {
     return (
@@ -14,7 +15,7 @@ export default function Longboard() {
                 </article>
             </div>
             <div className="slideshow">
-                <LongboardCarousel />
+                <LongboardCarousel {...items} />
             </div>
         </div>
     )

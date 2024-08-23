@@ -1,6 +1,6 @@
 import React from "react";
 
-import BlueskinCarousel from "@/carousels/blueskin-carousel";
+import BlueskinCarousel from "@/carousels/dynamic-carousel";
 import { items } from "../../public/company/carousel/blueskin.json";
 
 export default function Blueskin() {

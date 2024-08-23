@@ -1,6 +1,6 @@
 import React from "react";
 
-import ReadyPineCarousel from "@/carousels/readypine-carousel";
+import ReadyPineCarousel from "@/carousels/dynamic-carousel";
 import { items } from "../../public/company/carousel/readypine.json";
 
 export default function ReadyPine() {

@@ -1,6 +1,7 @@
 import React from "react";
 
-import FastPlankCarousel from "@/carousels/fastplank-carousel";
+import FastPlankCarousel from "@/carousels/dynamic-carousel";
+import { items } from "../../public/company/carousel/fastplank.json";
 
 export default function FastPlank() {
     return (
@@ -15,7 +16,7 @@ export default function FastPlank() {
             </div>
 
             <div className="slideshow">
-                <FastPlankCarousel />
+                <FastPlankCarousel {...items} />
             </div>
         </div>
     )
