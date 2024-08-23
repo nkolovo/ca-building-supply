@@ -21,6 +21,9 @@ header {
   top: 0;
   z-index: 10;
   display: block;
+  background-color: #ddd;
+  border-bottom: 1px solid black;
+  transition: top 0.2s ease-in-out;
 }
 
 a {
@@ -269,7 +272,7 @@ textarea {
 }
 
 .footer {
-  background-color: #939e9e;
+  background-color: #ccc;
   color: black;
   position: absolute;
   bottom: 0;
@@ -688,9 +691,5 @@ textarea {
   .nav {
     position: inherit;
     background-color: transparent;
-  }
-
-  header {
-    position: inherit;
   }
 }

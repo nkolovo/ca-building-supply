@@ -1,6 +1,7 @@
 import React from "react";
 
-import Carousel from "@/carousels/about-us-carousel";
+import Carousel from "@/carousels/dynamic-carousel";
+import { items } from "../public/company/carousel/about-us.json";
 
 export default function AboutUs() {
     return (
@@ -14,7 +15,7 @@ export default function AboutUs() {
                 </article>
 
                 <div className="slideshow">
-                    <Carousel />
+                    <Carousel {...items} />
                 </div>
             </div>
         </div>

@@ -64,11 +64,11 @@ export default function Home() {
             img: "company/products/timbertech/Inspiration-Gallery-Ashwood-Espresso-Legacy-Composite-Los-Angeles-Beauty-1.jpg",
             href: "/products/timbertech"
         },
-        {
-            text: "CA Composite Cladding",
-            img: "company/products/cacompositecladding/insert_jpg_here.jpg",
-            href: "/products/cacompositecladding"
-        },
+        // {
+        //     text: "CA Composite Cladding",
+        //     img: "company/products/cacompositecladding/insert_jpg_here.jpg",
+        //     href: "/products/cacompositecladding"
+        // },
         {
             text: "LP Siding",
             img: "company/products/lpsiding/LP4.jpg",
@@ -79,11 +79,26 @@ export default function Home() {
             img: "company/products/readypine/RP1.jpg",
             href: "/products/readypine"
         },
+        // {
+        //     text: "Clicklad",
+        //     img: "company/products/clicklad/insert_jpg_here.jpg",
+        //     href: "/products/clicklad"
+        // },
+        // {
+        //     text: "Versatex",
+        //     img: "company/products/versatex/insert_jpg_here.jpg",
+        //     href: "/products/versatex"
+        // },
         {
-            text: "Clicklad",
-            img: "company/products/clicklad/insert_jpg_here.jpg",
-            href: "/products/clicklad"
+            text: "Royal Building Products Siding",
+            img: "company/products/royalbuildingsiding/Royal5.jpg",
+            href: "/products/royalbuildingproductssiding"
         },
+        // {
+        //     text: "Sagiper",
+        //     img: "company/products/sagiper/insert_jpg_here.jpg",
+        //     href: "/products/sagiper"
+        // },
     ]
     return (
         <div className="Home">

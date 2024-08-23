@@ -1,0 +1,30 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "imageUrl": "/company/products/zuridecking/Zuri1.jpg"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/company/products/zuridecking/Zuri2.jpg"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/company/products/zuridecking/Zuri3.webp"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/company/products/zuridecking/Zuri4.jpg"
+        },
+        {
+          "id": 5,
+          "imageUrl": "/company/products/zuridecking/Zuri5.jpg"
+        },
+        {
+          "id": 6,
+          "imageUrl": "/company/products/zuridecking/Zuri6.jpg"
+        }
+      ]
+    }
+  }
