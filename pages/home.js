@@ -46,7 +46,7 @@ export default function Home() {
         },
         {
             text: "BlueSkin",
-            img: "company/products/blueskin/BlueSkin-2.jpg",
+            img: "company/products/blueskin/Blueskin-2.jpg",
             href: "/products/blueskin"
         },
         {
