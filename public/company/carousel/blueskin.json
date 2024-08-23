@@ -1,0 +1,26 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "imageUrl": "/company/products/blueskin/BlueSkin-1.jpg"
+        },
+        {
+          "id": 2,
+          "imageUrl": "/company/products/blueskin/BlueSkin-2.jpg"
+        },
+        {
+          "id": 3,
+          "imageUrl": "/company/products/blueskin/BlueSkin-3.jpg"
+        },
+        {
+          "id": 4,
+          "imageUrl": "/company/products/blueskin/BlueSkin-4.jpg"
+        },
+        {
+          "id": 5,
+          "imageUrl": "/company/products/blueskin/BlueSkin-5.jpg"
+        }
+      ]
+    }
+  }

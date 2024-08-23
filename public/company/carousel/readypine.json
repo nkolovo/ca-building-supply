@@ -1,0 +1,30 @@
+{
+    "items": {
+        "bootstrap": [
+            {
+                "id": 1,
+                "imageUrl": "/company/products/readypine/RP1.jpg"
+            },
+            {
+                "id": 2,
+                "imageUrl": "/company/products/readypine/RP3.jpg"
+            },
+            {
+                "id": 3,
+                "imageUrl": "/company/products/readypine/RP4.jpg"
+            },
+            {
+                "id": 4,
+                "imageUrl": "/company/products/readypine/RP5.jpg"
+            },
+            {
+                "id": 5,
+                "imageUrl": "/company/products/readypine/RP6.jpg"
+            },
+            {
+                "id": 6,
+                "imageUrl": "/company/products/readypine/RP22.jpg"
+            }
+        ]
+    }
+}

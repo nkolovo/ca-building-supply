@@ -1,0 +1,30 @@
+{
+    "items": {
+        "bootstrap": [
+            {
+                "id": 1,
+                "imageUrl": "/company/products/lpsiding/LP1.jpg"
+            },
+            {
+                "id": 2,
+                "imageUrl": "/company/products/lpsiding/LP2.jpg"
+            },
+            {
+                "id": 3,
+                "imageUrl": "/company/products/lpsiding/LP4.jpg"
+            },
+            {
+                "id": 4,
+                "imageUrl": "/company/products/lpsiding/LP5.jpg"
+            },
+            {
+                "id": 5,
+                "imageUrl": "/company/products/lpsiding/LP6.jpg"
+            },
+            {
+                "id": 6,
+                "imageUrl": "/company/products/lpsiding/white-black.jpg"
+            }
+        ]
+    }
+}

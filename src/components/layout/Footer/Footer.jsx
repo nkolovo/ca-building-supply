@@ -18,7 +18,7 @@ export default function Footer() {
                     <span className='footer_contact_us_info_row'>Phone Number: {' '}
                         <a className="footer_contact_us_parent_link" href="tel:+4168857330" style={{ color: "wheat" }}>
                             <span className="footer_contact_us_links">
-                                416-885-7330
+                                +1 (416) 697-1948
                             </span>
                         </a>
                     </span>

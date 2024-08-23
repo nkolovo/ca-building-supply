@@ -1,0 +1,30 @@
+{
+    "items": {
+        "bootstrap": [
+            {
+                "id": 1,
+                "imageUrl": "/company/products/tyvek/Tyvek1.png"
+            },
+            {
+                "id": 2,
+                "imageUrl": "/company/products/tyvek/Tyvek2.avif"
+            },
+            {
+                "id": 3,
+                "imageUrl": "/company/products/tyvek/Tyvek3.jpeg"
+            },
+            {
+                "id": 4,
+                "imageUrl": "/company/products/tyvek/Tyvek4.jpg"
+            },
+            {
+                "id": 5,
+                "imageUrl": "/company/products/tyvek/Tyvek5.webp"
+            },
+            {
+                "id": 6,
+                "imageUrl": "/company/products/tyvek/Tyvek6.jpeg"
+            }
+        ]
+    }
+}

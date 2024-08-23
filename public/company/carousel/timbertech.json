@@ -1,0 +1,30 @@
+{
+    "items": {
+        "bootstrap": [
+            {
+                "id": 1,
+                "imageUrl": "/company/products/timbertech/Inspiration-Gallery-Ashwood-Espresso-Legacy-Composite-Los-Angeles-Beauty-1.jpg"
+            },
+            {
+                "id": 2,
+                "imageUrl": "/company/products/timbertech/Inspiration-Gallery-Ashwood-Espresso-Legacy-Composite-Los-Angeles-Beauty-2.jpg"
+            },
+            {
+                "id": 3,
+                "imageUrl": "/company/products/timbertech/TimberTech-Antique-Leather-Reserve-Collection-PRO-Decking-inspiration-gallery-4.jpg"
+            },
+            {
+                "id": 4,
+                "imageUrl": "/company/products/timbertech/TimberTech-CompositeWood-Pecan-Legacy-Collection-PRO-Decking-inspiration-gallery-2.jpg"
+            },
+            {
+                "id": 5,
+                "imageUrl": "/company/products/timbertech/TimberTech-Dark-Roast-Reserve-Collection-PRO-Decking-inspiration-gallery-5.jpg"
+            },
+            {
+                "id": 6,
+                "imageUrl": "/company/products/timbertech/TimberTech-Pecan-Legacy-Collection-PRO-Decking-inspiration-gallery-1.jpg"
+            }
+        ]
+    }
+}

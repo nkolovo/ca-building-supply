@@ -44,6 +44,46 @@ export default function Home() {
             img: "company/products/trex/trex-cover.jpeg",
             href: "/products/trex"
         },
+        {
+            text: "BlueSkin",
+            img: "company/products/blueskin/BlueSkin-2.jpg",
+            href: "/products/blueskin"
+        },
+        {
+            text: "Cape Cod",
+            img: "company/products/capecodsiding/banner@2x.png",
+            href: "/products/capecod"
+        },
+        {
+            text: "Tyvek",
+            img: "company/products/tyvek/Tyvek6.jpeg",
+            href: "/products/tyvek"
+        },
+        {
+            text: "TimberTech",
+            img: "company/products/timbertech/Inspiration-Gallery-Ashwood-Espresso-Legacy-Composite-Los-Angeles-Beauty-1.jpg",
+            href: "/products/timbertech"
+        },
+        {
+            text: "CA Composite Cladding",
+            img: "company/products/cacompositecladding/insert_jpg_here.jpg",
+            href: "/products/cacompositecladding"
+        },
+        {
+            text: "LP Siding",
+            img: "company/products/lpsiding/LP4.jpg",
+            href: "/products/lpsiding"
+        },
+        {
+            text: "Ready Pine",
+            img: "company/products/readypine/RP1.jpg",
+            href: "/products/readypine"
+        },
+        {
+            text: "Clicklad",
+            img: "company/products/clicklad/insert_jpg_here.jpg",
+            href: "/products/clicklad"
+        },
     ]
     return (
         <div className="Home">
